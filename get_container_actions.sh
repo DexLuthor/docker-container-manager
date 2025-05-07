@@ -1,7 +1,8 @@
+#!/bin/bash
+
 container_id="$1"
 
-# Function to output Alfred item
-output_item() {
+alfred_action_item() {
     local title="$1"
     local subtitle="$2"
     local arg="$3"
@@ -16,7 +17,7 @@ output_item() {
         \"action\": \"$action\"
     }"
 }
-
+#todo handle when no param sooner
 echo '{ "items": ['
 
 # If a search term is provided, treat it as container ID
@@ -24,11 +25,11 @@ if [[ -n "$container_id" ]]; then
     match=$(docker ps -a --format '{{json .}}' | jq -c --arg term "$container_id" 'select(.ID | startswith($term))')
 
     if [[ -z "$match" ]]; then
-        output_item "🔴 Container with ID \"$container_id\" not found" "No such container exists" "" "notfound-$container_id" "none"
+        alfred_action_item "🔴Container with ID \"$container_id\" not found" "No such container exists" "" "notfound-$container_id" "none"
     else
+      # todo jq installation
         name=$(echo "$match" | jq -r '.Names')
         id=$(echo "$match" | jq -r '.ID')
-        image=$(echo "$match" | jq -r '.Image')
         status=$(echo "$match" | jq -r '.Status')
 
         running=false
@@ -38,18 +39,17 @@ if [[ -n "$container_id" ]]; then
 
         # Adds start/stop action
         if $running; then
-            output_item "🛑 Stop container: $name" "ID: $id | Image: $image" "stop,$id" "stop-$id" "stop"
+            alfred_action_item "🛑Stop '$name'" "" "stop,$id" "stop-$id" "stop"
+            echo ","
+            alfred_action_item "🔄Restart '$name'" "" "restart,$id" "restart-$id" "restart"
             echo ","
         else
-            output_item "▶️ Start container: $name" "ID: $id | Image: $image" "start,$id" "start-$id" "start"
+            alfred_action_item "🟢Start '$name'" "" "start,$id" "start-$id" "start"
             echo ","
         fi
 
         # Adds Delete
-        output_item "🗑 Delete container: $name" "ID: $id | Image: $image" "delete,$id" "delete-$id" "delete"
-        
-        # Adds compose actions if needed
-        
+        alfred_action_item "🗑Delete '$name'" "" "delete,$id" "delete-$id" "delete"
     fi
 
     echo ']}'

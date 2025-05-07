@@ -19,7 +19,12 @@ echo "$containers" | while read -r container_json; do
 
     # Determine status prefix
     if [[ "$status" == Up* ]]; then
-        prefix="🟢"
+        container_health=$(docker inspect --format='{{if .State.Health}}{{.State.Health.Status}}{{else}}{{end}}' $name)
+        if [[ "$container_health" == "unhealthy" ]]; then
+            prefix="🟢🤒"
+        else
+            prefix="🟢"
+        fi
     else
         prefix="🔴"
     fi
