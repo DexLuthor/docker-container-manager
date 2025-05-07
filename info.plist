@@ -78,7 +78,37 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy container ID: {query}</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>13630A92-E160-4C35-B928-DE1A871A004C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BBADAF94-E75C-4633-88C6-210D9A5A5C1D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F3609714-5CAF-4B83-9093-DCC914DF5396</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -92,6 +122,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>54C89510-36DA-471E-B9C4-E5534F31D9F5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BBADAF94-E75C-4633-88C6-210D9A5A5C1D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DB2DAC08-7BB2-4A7C-BEDA-0AC10FF1C789</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -125,6 +168,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>13630A92-E160-4C35-B928-DE1A871A004C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>DexLuthor</string>
@@ -136,6 +202,25 @@
 	<string>Docker container manager</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -154,6 +239,14 @@
 			<string>alfred.workflow.utility.dialog</string>
 			<key>uid</key>
 			<string>41021626-E50F-4667-BA12-2B2A65071ADB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -368,6 +461,99 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>dkr stop-all</string>
+				<key>subtext</key>
+				<string>Stops all running containers</string>
+				<key>text</key>
+				<string>Stop the world</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BBADAF94-E75C-4633-88C6-210D9A5A5C1D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>docker stop $(docker ps -q)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DB2DAC08-7BB2-4A7C-BEDA-0AC10FF1C789</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dkr stats</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>get_stats.sh</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Container statistics</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F3609714-5CAF-4B83-9093-DCC914DF5396</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>skipqueryencode</key>
@@ -445,9 +631,9 @@
 			<key>note</key>
 			<string>Shows actions available for selected container</string>
 			<key>xpos</key>
-			<real>285</real>
+			<real>420</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>220</real>
 		</dict>
 		<key>41021626-E50F-4667-BA12-2B2A65071ADB</key>
 		<dict>
@@ -456,9 +642,9 @@
 			<key>note</key>
 			<string>You sure?</string>
 			<key>xpos</key>
-			<real>807</real>
+			<real>942</real>
 			<key>ypos</key>
-			<real>95</real>
+			<real>100</real>
 		</dict>
 		<key>52756552-467E-4401-9FC8-50709FDD2B68</key>
 		<dict>
@@ -467,18 +653,18 @@
 			<key>note</key>
 			<string>Goes back to Alfred</string>
 			<key>xpos</key>
-			<real>895</real>
+			<real>1030</real>
 			<key>ypos</key>
-			<real>190</real>
+			<real>195</real>
 		</dict>
 		<key>54C89510-36DA-471E-B9C4-E5534F31D9F5</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>320</real>
+			<real>305</real>
 			<key>ypos</key>
-			<real>555</real>
+			<real>880</real>
 		</dict>
 		<key>6C24C078-358D-4663-AA2E-BC57A10E9679</key>
 		<dict>
@@ -487,18 +673,18 @@
 E.g.
 "start,23d26as" =&gt; $1=start $2=23d23as</string>
 			<key>xpos</key>
-			<real>505</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>245</real>
+			<real>250</real>
 		</dict>
 		<key>6C440EC3-99EF-45C5-ADB7-BC7E5BE8E65F</key>
 		<dict>
 			<key>note</key>
 			<string>Executes selected action</string>
 			<key>xpos</key>
-			<real>1115</real>
+			<real>1250</real>
 			<key>ypos</key>
-			<real>225</real>
+			<real>230</real>
 		</dict>
 		<key>6D329E13-F7D3-4DEE-85DA-75EAD5E0A711</key>
 		<dict>
@@ -518,27 +704,66 @@ E.g.
 			<key>note</key>
 			<string>Fetch images from docker hub and/or github container registry</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>50</real>
 			<key>ypos</key>
-			<real>555</real>
+			<real>880</real>
+		</dict>
+		<key>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>415</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>BBADAF94-E75C-4633-88C6-210D9A5A5C1D</key>
+		<dict>
+			<key>xpos</key>
+			<real>300</real>
+			<key>ypos</key>
+			<real>475</real>
 		</dict>
 		<key>CA183430-8E2F-438A-B576-1588E7222344</key>
 		<dict>
 			<key>note</key>
 			<string>Prompt when deleting</string>
 			<key>xpos</key>
-			<real>685</real>
+			<real>820</real>
 			<key>ypos</key>
-			<real>235</real>
+			<real>240</real>
 		</dict>
 		<key>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>1290</real>
+			<real>1425</real>
 			<key>ypos</key>
-			<real>225</real>
+			<real>230</real>
+		</dict>
+		<key>DB2DAC08-7BB2-4A7C-BEDA-0AC10FF1C789</key>
+		<dict>
+			<key>xpos</key>
+			<real>505</real>
+			<key>ypos</key>
+			<real>475</real>
+		</dict>
+		<key>F3609714-5CAF-4B83-9093-DCC914DF5396</key>
+		<dict>
+			<key>xpos</key>
+			<real>485</real>
+			<key>ypos</key>
+			<real>650</real>
+		</dict>
+		<key>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</key>
+		<dict>
+			<key>note</key>
+			<string>Copy container ID on holding ⌥</string>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>150</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
