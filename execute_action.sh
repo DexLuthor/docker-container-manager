@@ -14,7 +14,7 @@ elif [ "$ACTION" = "stop" ]; then
   docker stop "$CONTAINER" > /dev/null
   echo "Stopped $CONTAINER"
 elif [ "$ACTION" = "delete" ]; then
-  docker rm "$CONTAINER" > /dev/null
+  docker rm -f "$CONTAINER" > /dev/null
   echo "Deleted '$CONTAINER'"
 elif [ "$ACTION" = "restart" ]; then
   docker restart "$CONTAINER" > /dev/null

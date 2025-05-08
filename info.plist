@@ -21,6 +21,31 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4018D77A-0A54-4EC4-A614-A53C44AE384F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6400BF8E-8F9D-486B-9055-827C720F5544</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2E9101A1-F243-4853-AB1E-8292AEE140E1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>13630A92-E160-4C35-B928-DE1A871A004C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>41021626-E50F-4667-BA12-2B2A65071ADB</key>
 		<array>
 			<dict>
@@ -44,6 +69,71 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4767A663-1849-48BE-A3D4-39FCB1E585B4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C2B4CDB0-F398-4A2B-8DBF-FD197E44B61D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>21275B87-557A-4BB0-B0C4-D8A9C32D70C1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F3609714-5CAF-4B83-9093-DCC914DF5396</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>06092DC2-EE8A-47A5-8447-238C0A5E1B0D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7B36B28E-B337-48A7-B222-4619C5D1CD7E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C3F7C283-49F0-4680-8476-1D7845E82411</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4D8D8D7C-D497-4862-8536-5F1806439E12</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA8602E3-350C-4D3C-BE7F-2A8C965E82A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6400BF8E-8F9D-486B-9055-827C720F5544</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F6AD887A-9A36-448C-8CA7-1BC014C7763B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -74,49 +164,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>6D329E13-F7D3-4DEE-85DA-75EAD5E0A711</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string>Copy container ID: {query}</string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>13630A92-E160-4C35-B928-DE1A871A004C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>BBADAF94-E75C-4633-88C6-210D9A5A5C1D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>F3609714-5CAF-4B83-9093-DCC914DF5396</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>7B36B28E-B337-48A7-B222-4619C5D1CD7E</key>
 		<array>
 			<dict>
@@ -130,15 +177,38 @@
 				<false/>
 			</dict>
 		</array>
-		<key>BBADAF94-E75C-4633-88C6-210D9A5A5C1D</key>
+		<key>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DB2DAC08-7BB2-4A7C-BEDA-0AC10FF1C789</string>
+				<string>89B6C709-84BD-456D-BC52-F0005E21E25D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C2B4CDB0-F398-4A2B-8DBF-FD197E44B61D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4018D77A-0A54-4EC4-A614-A53C44AE384F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy container ID: '{query}'</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -168,11 +238,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DA8602E3-350C-4D3C-BE7F-2A8C965E82A5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4767A663-1849-48BE-A3D4-39FCB1E585B4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</string>
+				<string>13630A92-E160-4C35-B928-DE1A871A004C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -182,7 +265,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>13630A92-E160-4C35-B928-DE1A871A004C</string>
+				<string>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -205,21 +288,46 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
+				<key>lastpathcomponent</key>
 				<false/>
-				<key>clipboardtext</key>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
 				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</string>
+			<string>F6AD887A-9A36-448C-8CA7-1BC014C7763B</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>stop_all.sh</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6400BF8E-8F9D-486B-9055-827C720F5544</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -243,14 +351,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
@@ -268,51 +368,34 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dkr</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Loading..</string>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>get_all_containers.sh</string>
-				<key>subtext</key>
-				<string>Manage docker containers</string>
-				<key>title</key>
-				<string>Docker</string>
-				<key>type</key>
-				<integer>8</integer>
-				<key>withspace</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^stop-all.+</string>
+						<key>outputlabel</key>
+						<string>Stop all</string>
+						<key>uid</key>
+						<string>2E9101A1-F243-4853-AB1E-8292AEE140E1</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>6D329E13-F7D3-4DEE-85DA-75EAD5E0A711</string>
+			<string>4018D77A-0A54-4EC4-A614-A53C44AE384F</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -364,6 +447,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -383,27 +487,6 @@
 			<string>6C440EC3-99EF-45C5-ADB7-BC7E5BE8E65F</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Container Manager</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -461,46 +544,130 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
 				<key>keyword</key>
-				<string>dkr stop-all</string>
+				<string>{var:containers_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading..</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>get_all_containers.sh</string>
 				<key>subtext</key>
-				<string>Stops all running containers</string>
-				<key>text</key>
-				<string>Stop the world</string>
+				<string>Manage docker containers</string>
+				<key>title</key>
+				<string>Docker</string>
+				<key>type</key>
+				<integer>8</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>BBADAF94-E75C-4633-88C6-210D9A5A5C1D</string>
+			<string>C2B4CDB0-F398-4A2B-8DBF-FD197E44B61D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>lastpathcomponent</key>
 				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>docker stop $(docker ps -q)</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Copied: '{query}'</string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>DB2DAC08-7BB2-4A7C-BEDA-0AC10FF1C789</string>
+			<string>89B6C709-84BD-456D-BC52-F0005E21E25D</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Containers","arg":"containers"},{"title":"Monitoring","arg":"monitoring"},{"title":"Dockerhub","arg":"dockerhub"}]</string>
+				<key>keyword</key>
+				<string>dkr</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>4D8D8D7C-D497-4862-8536-5F1806439E12</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -518,7 +685,7 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>dkr stats</string>
+				<string>{var:monitoring_keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -554,21 +721,80 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:mode}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>containers</string>
+						<key>outputlabel</key>
+						<string>containers</string>
+						<key>uid</key>
+						<string>21275B87-557A-4BB0-B0C4-D8A9C32D70C1</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:mode}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>monitoring</string>
+						<key>outputlabel</key>
+						<string>monitoring</string>
+						<key>uid</key>
+						<string>06092DC2-EE8A-47A5-8447-238C0A5E1B0D</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:mode}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>dockerhub</string>
+						<key>outputlabel</key>
+						<string>dockerhub</string>
+						<key>uid</key>
+						<string>C3F7C283-49F0-4680-8476-1D7845E82411</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>54C89510-36DA-471E-B9C4-E5534F31D9F5</string>
+			<string>4767A663-1849-48BE-A3D4-39FCB1E585B4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>mode</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>DA8602E3-350C-4D3C-BE7F-2A8C965E82A5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -606,7 +832,7 @@
 				<key>scriptfile</key>
 				<string>query_dockerhub.sh</string>
 				<key>subtext</key>
-				<string>Manage docker containers</string>
+				<string></string>
 				<key>title</key>
 				<string>Find in dockerhub</string>
 				<key>type</key>
@@ -621,6 +847,27 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>54C89510-36DA-471E-B9C4-E5534F31D9F5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>This workflow allows to efficently (re)start / stop / delete containers, browse dockerhub</string>
@@ -631,9 +878,16 @@
 			<key>note</key>
 			<string>Shows actions available for selected container</string>
 			<key>xpos</key>
-			<real>420</real>
+			<real>815</real>
 			<key>ypos</key>
-			<real>220</real>
+			<real>205</real>
+		</dict>
+		<key>4018D77A-0A54-4EC4-A614-A53C44AE384F</key>
+		<dict>
+			<key>xpos</key>
+			<real>655</real>
+			<key>ypos</key>
+			<real>205</real>
 		</dict>
 		<key>41021626-E50F-4667-BA12-2B2A65071ADB</key>
 		<dict>
@@ -642,9 +896,25 @@
 			<key>note</key>
 			<string>You sure?</string>
 			<key>xpos</key>
-			<real>942</real>
+			<real>1337</real>
 			<key>ypos</key>
-			<real>100</real>
+			<real>65</real>
+		</dict>
+		<key>4767A663-1849-48BE-A3D4-39FCB1E585B4</key>
+		<dict>
+			<key>xpos</key>
+			<real>265</real>
+			<key>ypos</key>
+			<real>440</real>
+		</dict>
+		<key>4D8D8D7C-D497-4862-8536-5F1806439E12</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>435</real>
 		</dict>
 		<key>52756552-467E-4401-9FC8-50709FDD2B68</key>
 		<dict>
@@ -653,18 +923,25 @@
 			<key>note</key>
 			<string>Goes back to Alfred</string>
 			<key>xpos</key>
-			<real>1030</real>
+			<real>1425</real>
 			<key>ypos</key>
-			<real>195</real>
+			<real>180</real>
 		</dict>
 		<key>54C89510-36DA-471E-B9C4-E5534F31D9F5</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>305</real>
+			<real>675</real>
 			<key>ypos</key>
-			<real>880</real>
+			<real>595</real>
+		</dict>
+		<key>6400BF8E-8F9D-486B-9055-827C720F5544</key>
+		<dict>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>15</real>
 		</dict>
 		<key>6C24C078-358D-4663-AA2E-BC57A10E9679</key>
 		<dict>
@@ -673,29 +950,18 @@
 E.g.
 "start,23d26as" =&gt; $1=start $2=23d23as</string>
 			<key>xpos</key>
-			<real>645</real>
+			<real>1040</real>
 			<key>ypos</key>
-			<real>250</real>
+			<real>235</real>
 		</dict>
 		<key>6C440EC3-99EF-45C5-ADB7-BC7E5BE8E65F</key>
 		<dict>
 			<key>note</key>
 			<string>Executes selected action</string>
 			<key>xpos</key>
-			<real>1250</real>
+			<real>1645</real>
 			<key>ypos</key>
-			<real>230</real>
-		</dict>
-		<key>6D329E13-F7D3-4DEE-85DA-75EAD5E0A711</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>7</integer>
-			<key>note</key>
-			<string>Lists all available containers upon typing the keyword</string>
-			<key>xpos</key>
-			<real>70</real>
-			<key>ypos</key>
-			<real>210</real>
+			<real>215</real>
 		</dict>
 		<key>7B36B28E-B337-48A7-B222-4619C5D1CD7E</key>
 		<dict>
@@ -704,72 +970,135 @@ E.g.
 			<key>note</key>
 			<string>Fetch images from docker hub and/or github container registry</string>
 			<key>xpos</key>
-			<real>50</real>
+			<real>420</real>
 			<key>ypos</key>
-			<real>880</real>
+			<real>595</real>
+		</dict>
+		<key>89B6C709-84BD-456D-BC52-F0005E21E25D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>1000</real>
+			<key>ypos</key>
+			<real>390</real>
 		</dict>
 		<key>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>415</real>
+			<real>810</real>
 			<key>ypos</key>
-			<real>65</real>
+			<real>390</real>
 		</dict>
-		<key>BBADAF94-E75C-4633-88C6-210D9A5A5C1D</key>
+		<key>C2B4CDB0-F398-4A2B-8DBF-FD197E44B61D</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Lists all available containers upon typing the keyword</string>
 			<key>xpos</key>
-			<real>300</real>
+			<real>420</real>
 			<key>ypos</key>
-			<real>475</real>
+			<real>245</real>
 		</dict>
 		<key>CA183430-8E2F-438A-B576-1588E7222344</key>
 		<dict>
 			<key>note</key>
 			<string>Prompt when deleting</string>
 			<key>xpos</key>
-			<real>820</real>
+			<real>1215</real>
 			<key>ypos</key>
-			<real>240</real>
+			<real>225</real>
 		</dict>
 		<key>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>1425</real>
+			<real>1820</real>
 			<key>ypos</key>
-			<real>230</real>
+			<real>215</real>
 		</dict>
-		<key>DB2DAC08-7BB2-4A7C-BEDA-0AC10FF1C789</key>
+		<key>DA8602E3-350C-4D3C-BE7F-2A8C965E82A5</key>
 		<dict>
 			<key>xpos</key>
-			<real>505</real>
+			<real>190</real>
 			<key>ypos</key>
-			<real>475</real>
+			<real>465</real>
 		</dict>
 		<key>F3609714-5CAF-4B83-9093-DCC914DF5396</key>
 		<dict>
 			<key>xpos</key>
-			<real>485</real>
+			<real>420</real>
 			<key>ypos</key>
-			<real>650</real>
+			<real>435</real>
 		</dict>
 		<key>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</key>
 		<dict>
 			<key>note</key>
 			<string>Copy container ID on holding ⌥</string>
 			<key>xpos</key>
-			<real>285</real>
+			<real>665</real>
 			<key>ypos</key>
-			<real>150</real>
+			<real>345</real>
+		</dict>
+		<key>F6AD887A-9A36-448C-8CA7-1BC014C7763B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>1005</real>
+			<key>ypos</key>
+			<real>15</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
-	<key>variablesdontexport</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>conts</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword for direct access</string>
+			<key>label</key>
+			<string>Containers</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>containers_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>monitoring</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword for direct access</string>
+			<key>label</key>
+			<string>Monitoring</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>monitoring_keyword</string>
+		</dict>
+	</array>
 	<key>version</key>
 	<string>0.0.1</string>
 	<key>webaddress</key>

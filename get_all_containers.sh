@@ -1,19 +1,33 @@
 #!/bin/bash
 
+alfred_action_item() {
+    local title="$1"
+    local subtitle="$2"
+    local arg="$3"
+    local uid="$4"
+    echo "  {
+        \"title\": \"$title\",
+        \"subtitle\": \"$subtitle\",
+        \"arg\": \"$arg\",
+        \"uid\": \"$uid\",
+        \"autocomplete\": \"$title\"
+    }"
+}
+
 # Get all Docker containers (running and stopped)
 containers=$(docker ps -a --format '{{json .}}')
 
 # Begin JSON output
 echo '{ "rerun": 1, "items": ['
 
+alfred_action_item "🔨Stop the world" "Stop all running containers" "stop-all,$(docker ps -q | awk 'BEGIN { ORS="," } { print }' | sed 's/,$//;s/$/\n/')" "3c7e03d8-81a6-3592-a354-d0c5a036099b" "Stop all containers"
 # Initialize counter
-count=0
 
 # Loop through containers
 echo "$containers" | while read -r container_json; do
     # Use jq to parse needed fields
     name=$(echo "$container_json" | jq -r '.Names')
-    id=$(echo "$container_json" | jq -r '.ID')
+    id=$(echo "$container_json" | jq -r '.ID') 
     image=$(echo "$container_json" | jq -r '.Image')
     status=$(echo "$container_json" | jq -r '.Status')
 
@@ -29,18 +43,10 @@ echo "$containers" | while read -r container_json; do
         prefix="🔴"
     fi
 
-    # Add comma if not the first item
-    [ $count -ne 0 ] && echo ","
+    echo ","
 
     # Output Alfred item
-    echo "  {
-        \"title\": \"$prefix $name\",
-        \"subtitle\": \"ID: $id | Image: $image\",
-        \"arg\": \"$id\",
-        \"uid\": \"$id\",
-        \"autocomplete\": \"$name\",
-	    \"action\": \"Alfred is Great\"
-    }"
+    alfred_action_item "$prefix $name" "ID: $id | Image: $image" "$id" "$id" "$name"
 
     count=$((count + 1))
 done
