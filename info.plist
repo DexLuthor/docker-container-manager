@@ -73,6 +73,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>431EA3B2-A761-4DCE-9AFF-C52E1FC997B7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7B36B28E-B337-48A7-B222-4619C5D1CD7E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4767A663-1849-48BE-A3D4-39FCB1E585B4</key>
 		<array>
 			<dict>
@@ -108,6 +121,18 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>C3F7C283-49F0-4680-8476-1D7845E82411</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>431EA3B2-A761-4DCE-9AFF-C52E1FC997B7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>72B30F7B-3817-4DDC-B7F0-D8F89630CFA5</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -939,9 +964,9 @@ echo "Restarted '$CONTAINER'"</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Containers","arg":"containers"},{"title":"Monitoring","arg":"monitoring"},{"title":"Dockerhub","arg":"dockerhub"}]</string>
+				<string>[{"title":"Containers","arg":"containers"},{"title":"Monitoring","arg":"monitoring"},{"title":"Dockerhub","arg":"dockerhub"},{"title":"Images","arg":"images"}]</string>
 				<key>keyword</key>
-				<string>dkr</string>
+				<string>{var:main_keyword}</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -1086,6 +1111,20 @@ echo "Restarted '$CONTAINER'"</string>
 						<key>uid</key>
 						<string>C3F7C283-49F0-4680-8476-1D7845E82411</string>
 					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:mode}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>images</string>
+						<key>outputlabel</key>
+						<string>images</string>
+						<key>uid</key>
+						<string>72B30F7B-3817-4DDC-B7F0-D8F89630CFA5</string>
+					</dict>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
@@ -1184,7 +1223,7 @@ echo "Restarted '$CONTAINER'"</string>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>dh</string>
+				<string>{var:dockerhub_keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -1268,9 +1307,104 @@ echo "Restarted '$CONTAINER'"</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>{var:images_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading..</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>get_images.sh</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>View local images</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>431EA3B2-A761-4DCE-9AFF-C52E1FC997B7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow allows to efficently (re)start / stop / delete containers, browse dockerhub</string>
+	<string># Alfred Workflow for Managing Docker Containers
+
+## Features
+
+* (Re)start, stop, or delete containers
+* Connect to container's shell
+* View logs
+* View local Docker images
+* Browse Docker Hub
+* More features coming soon...
+
+
+## How to use
+
+* Type `dkr` to list available subcommands:
+    * **containers** — Shows running containers
+      * &lt;kbd&gt;⌥&lt;/kbd&gt;+&lt;kbd&gt;⏎&lt;/kbd&gt;: Copy container ID to clipboard
+      * &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;⏎&lt;/kbd&gt;: Open terminal and connect to the container shell
+      * &lt;kbd&gt;⏎&lt;/kbd&gt;: View available container actions
+    * **monitoring** — Displays current resource usage of running containers 
+        * &lt;kbd&gt;⏎&lt;/kbd&gt;: To get to container's actions
+    * **dockerhub** _&lt;image_name&gt;_ — Searches Docker Hub and lists available images 
+      * &lt;kbd&gt;⏎&lt;/kbd&gt;: Open image page in browser the image page in your browser
+    * **images** — Lists local Docker images with basic info. 
+      * &lt;kbd&gt;⏎&lt;/kbd&gt;: to open the image page in your browser
+* You can also use configurable shortcut aliases:
+    * `conts` → `dkr containers`
+    * `mon` → `dkr monitoring`
+    * `dh` → `dkr dockerhub`
+    * `images` → `dkr images`
+
+
+## Container Status icons
+
+
+* `🟢`: **Running** and Healthy
+* `🟢🤒`: Running, but **Unhealthy**
+* `🟡`: **Paused**
+* `🔄`: **Restarting**
+* `🔴`: **Not running** - Exited / dead / not started
+* `⚪️`: Unknown
+
+
+## Prerequisites
+
+* **Docker** — Required for container management
+* **jq** — Command-line JSON processor used to parse Docker output</string>
 	<key>uidata</key>
 	<dict>
 		<key>13630A92-E160-4C35-B928-DE1A871A004C</key>
@@ -1299,6 +1433,15 @@ echo "Restarted '$CONTAINER'"</string>
 			<real>1782</real>
 			<key>ypos</key>
 			<real>410</real>
+		</dict>
+		<key>431EA3B2-A761-4DCE-9AFF-C52E1FC997B7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<real>410</real>
+			<key>ypos</key>
+			<real>985</real>
 		</dict>
 		<key>4767A663-1849-48BE-A3D4-39FCB1E585B4</key>
 		<dict>
@@ -1534,6 +1677,27 @@ This node will cut off 'cli,' chunk, because terminal runner on the right needs 
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>dkr</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword for direct access</string>
+			<key>label</key>
+			<string>Docker</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>main_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<string>conts</string>
 				<key>placeholder</key>
 				<string></string>
@@ -1555,7 +1719,7 @@ This node will cut off 'cli,' chunk, because terminal runner on the right needs 
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>monitoring</string>
+				<string>mon</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -1571,6 +1735,48 @@ This node will cut off 'cli,' chunk, because terminal runner on the right needs 
 			<string>textfield</string>
 			<key>variable</key>
 			<string>monitoring_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>dh</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword for direct access</string>
+			<key>label</key>
+			<string>Dockerhub</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>dockerhub_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>images</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword for direct access</string>
+			<key>label</key>
+			<string>Images</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>images_keyword</string>
 		</dict>
 	</array>
 	<key>version</key>
