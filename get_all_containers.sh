@@ -21,34 +21,41 @@ containers=$(docker ps -a --format '{{json .}}')
 echo '{ "rerun": 1, "items": ['
 
 alfred_action_item "🔨Stop the world" "Stop all running containers" "stop-all,$(docker ps -q | awk 'BEGIN { ORS="," } { print }' | sed 's/,$//;s/$/\n/')" "3c7e03d8-81a6-3592-a354-d0c5a036099b" "Stop all containers"
-# Initialize counter
 
 # Loop through containers
 echo "$containers" | while read -r container_json; do
-    # Use jq to parse needed fields
     name=$(echo "$container_json" | jq -r '.Names')
-    id=$(echo "$container_json" | jq -r '.ID') 
+    id=$(echo "$container_json" | jq -r '.ID')
     image=$(echo "$container_json" | jq -r '.Image')
-    status=$(echo "$container_json" | jq -r '.Status')
+    state=$(docker inspect --format '{{.State.Status}}' "$id")
+    health=$(docker inspect --format '{{if .State.Health}}{{.State.Health.Status}}{{else}}none{{end}}' "$id")
 
-    # Determine status prefix
-    if [[ "$status" == Up* ]]; then
-        container_health=$(docker inspect --format='{{if .State.Health}}{{.State.Health.Status}}{{else}}{{end}}' "$name")
-        if [[ "$container_health" == "unhealthy" ]]; then
-            prefix="🟢🤒"
-        else
-            prefix="🟢"
-        fi
-    else
-        prefix="🔴"
-    fi
+    # Determine color and emoji
+    case "$state" in
+        running)
+            if [[ "$health" == "unhealthy" ]]; then
+                prefix="🟢🤒"
+            else
+                prefix="🟢"
+            fi
+            ;;
+        paused)
+            prefix="🟡"
+            ;;
+        exited | dead | created)
+            prefix="🔴"
+            ;;
+        restarting)
+            prefix="🔄"
+            ;;
+        *)
+            prefix="⚪"
+            ;;
+    esac
 
     echo ","
 
-    # Output Alfred item
-    alfred_action_item "$prefix $name" "ID: $id | Image: $image" "$id" "$id" "$name"
-
-    count=$((count + 1))
+    alfred_action_item "$prefix $name" "ID: $id | Image: $image" "$id" "$id"
 done
 
 # End JSON

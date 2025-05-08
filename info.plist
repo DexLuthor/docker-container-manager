@@ -290,6 +290,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8079ECA-8032-4129-866A-04E5E24600C2</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Connect to the container's shell</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>CA183430-8E2F-438A-B576-1588E7222344</key>
 		<array>
@@ -1362,6 +1372,8 @@ echo "Restarted '$CONTAINER'"</string>
 		</dict>
 		<key>6400BF8E-8F9D-486B-9055-827C720F5544</key>
 		<dict>
+			<key>note</key>
+			<string>Stop all containers</string>
 			<key>xpos</key>
 			<real>1750</real>
 			<key>ypos</key>
