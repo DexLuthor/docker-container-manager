@@ -467,7 +467,7 @@
 	<key>createdby</key>
 	<string>DexLuthor</string>
 	<key>description</key>
-	<string>Helps running, stopping, deleting docker containers</string>
+	<string>Helps working with docker containers right from your Alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -1779,6 +1779,8 @@ This node will cut off 'cli,' chunk, because terminal runner on the right needs 
 			<string>images_keyword</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>0.0.1</string>
 	<key>webaddress</key>
