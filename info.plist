@@ -50,6 +50,18 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>4EAA36E7-E0AD-4445-A913-4D9F0470A96A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>52756552-467E-4401-9FC8-50709FDD2B68</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -57,18 +69,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>_button2</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6C440EC3-99EF-45C5-ADB7-BC7E5BE8E65F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>_button1</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -125,6 +125,58 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4EAA36E7-E0AD-4445-A913-4D9F0470A96A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>553358E1-798B-4224-88B0-C299200E8D12</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5C89E338-87A4-45D7-A2C6-D83185BCE258</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>60489975-C242-44EA-9F96-714BA348E7C4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B92D4086-FD0F-43A2-94E4-433E0B4D0559</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6400BF8E-8F9D-486B-9055-827C720F5544</key>
 		<array>
 			<dict>
@@ -151,19 +203,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>6C440EC3-99EF-45C5-ADB7-BC7E5BE8E65F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>7B36B28E-B337-48A7-B222-4619C5D1CD7E</key>
 		<array>
 			<dict>
@@ -177,11 +216,50 @@
 				<false/>
 			</dict>
 		</array>
+		<key>884E3A5A-B1DD-45F9-BD31-1A9AA2E723FE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DFF69E38-5FB0-438F-89DA-6B87FB954716</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>96724315-CAB1-4136-96DE-523519D6755C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>884E3A5A-B1DD-45F9-BD31-1A9AA2E723FE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>89B6C709-84BD-456D-BC52-F0005E21E25D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B92D4086-FD0F-43A2-94E4-433E0B4D0559</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8079ECA-8032-4129-866A-04E5E24600C2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -217,6 +295,30 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>5C89E338-87A4-45D7-A2C6-D83185BCE258</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4F14AF3E-2DA8-43B7-ABD3-AEDBA41B7FF7</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D7604F66-B2FD-4440-8928-AAE96C7B8401</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5C21C385-C198-4E66-A465-792D8A5C69D6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>41021626-E50F-4667-BA12-2B2A65071ADB</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -229,7 +331,46 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>6C440EC3-99EF-45C5-ADB7-BC7E5BE8E65F</string>
+				<string>553358E1-798B-4224-88B0-C299200E8D12</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>B21655D5-369A-4392-B488-2DEA75AE10CE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>96724315-CAB1-4136-96DE-523519D6755C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E4F6DBC1-D79B-4BDD-9E2E-291C1C3CAA8D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>60489975-C242-44EA-9F96-714BA348E7C4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>29B34377-B3AA-4F40-B86C-2D0708465FEF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D7604F66-B2FD-4440-8928-AAE96C7B8401</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -314,6 +455,32 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
+				<string>CONTAINER="$2"
+
+docker start "$CONTAINER" &gt; /dev/null
+echo "Started $CONTAINER"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5C89E338-87A4-45D7-A2C6-D83185BCE258</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
 				<string></string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -332,36 +499,46 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>button1</key>
-				<string>Delete</string>
-				<key>button2</key>
-				<string>Cancel</string>
-				<key>button3</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>CONTAINER="$2"
+docker stop "$CONTAINER" &gt; /dev/null
+echo "Stopped $CONTAINER"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>description</key>
-				<string>You sure you want to delete this container?</string>
-				<key>title</key>
-				<string>Are you sure?</string>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.dialog</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>41021626-E50F-4667-BA12-2B2A65071ADB</string>
+			<string>D7604F66-B2FD-4440-8928-AAE96C7B8401</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>dkr</string>
-				<key>leftcursor</key>
+				<key>lastpathcomponent</key>
 				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.showalfred</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>52756552-467E-4401-9FC8-50709FDD2B68</string>
+			<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -447,44 +624,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>{const:alfred_workflow_name}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>0</integer>
+				<integer>102</integer>
 				<key>script</key>
-				<string></string>
+				<string>CONTAINER="$2"
+docker rm -f "$CONTAINER" &gt; /dev/null
+echo "Deleted '$CONTAINER'"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>execute_action.sh</string>
+				<string></string>
 				<key>type</key>
-				<integer>8</integer>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>6C440EC3-99EF-45C5-ADB7-BC7E5BE8E65F</string>
+			<string>4EAA36E7-E0AD-4445-A913-4D9F0470A96A</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -501,17 +659,87 @@
 						<key>matchmode</key>
 						<integer>4</integer>
 						<key>matchstring</key>
+						<string>^start.+</string>
+						<key>outputlabel</key>
+						<string>Start</string>
+						<key>uid</key>
+						<string>4F14AF3E-2DA8-43B7-ABD3-AEDBA41B7FF7</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^stop.+</string>
+						<key>outputlabel</key>
+						<string>Stop</string>
+						<key>uid</key>
+						<string>5C21C385-C198-4E66-A465-792D8A5C69D6</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
 						<string>^delete.+</string>
 						<key>outputlabel</key>
-						<string></string>
+						<string>Delete</string>
 						<key>uid</key>
 						<string>A0487690-D7A6-4BFC-9B07-FADE60948C62</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^restart.+</string>
+						<key>outputlabel</key>
+						<string>Restart</string>
+						<key>uid</key>
+						<string>B21655D5-369A-4392-B488-2DEA75AE10CE</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^logs.+</string>
+						<key>outputlabel</key>
+						<string>Logs</string>
+						<key>uid</key>
+						<string>E4F6DBC1-D79B-4BDD-9E2E-291C1C3CAA8D</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^cli.+</string>
+						<key>outputlabel</key>
+						<string>CLI</string>
+						<key>uid</key>
+						<string>29B34377-B3AA-4F40-B86C-2D0708465FEF</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
 				<key>hideelse</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -591,12 +819,73 @@
 			<integer>3</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Delete</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>You sure you want to delete this container?</string>
+				<key>title</key>
+				<string>Are you sure?</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>41021626-E50F-4667-BA12-2B2A65071ADB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>dkr</string>
+				<key>leftcursor</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.showalfred</string>
+			<key>uid</key>
+			<string>52756552-467E-4401-9FC8-50709FDD2B68</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
 			<string>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>CONTAINER="$2"
+docker restart "$CONTAINER" &gt; /dev/null
+echo "Restarted '$CONTAINER'"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>553358E1-798B-4224-88B0-C299200E8D12</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -801,6 +1090,69 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.joinargs</string>
+			<key>uid</key>
+			<string>96724315-CAB1-4136-96DE-523519D6755C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>logs,</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>884E3A5A-B1DD-45F9-BD31-1A9AA2E723FE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>behaviour</key>
+				<integer>0</integer>
+				<key>fontmode</key>
+				<integer>0</integer>
+				<key>fontsizing</key>
+				<integer>0</integer>
+				<key>footertext</key>
+				<string></string>
+				<key>inputfile</key>
+				<string>get_container_logs.sh</string>
+				<key>inputtype</key>
+				<integer>1</integer>
+				<key>loadingtext</key>
+				<string></string>
+				<key>outputmode</key>
+				<integer>0</integer>
+				<key>scriptinput</key>
+				<integer>0</integer>
+				<key>spellchecking</key>
+				<integer>0</integer>
+				<key>stackview</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.text</string>
+			<key>uid</key>
+			<string>DFF69E38-5FB0-438F-89DA-6B87FB954716</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -868,6 +1220,52 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>docker exec -it {query} /bin/bash
+</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>C8079ECA-8032-4129-866A-04E5E24600C2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.joinargs</string>
+			<key>uid</key>
+			<string>60489975-C242-44EA-9F96-714BA348E7C4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>cli,</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>B92D4086-FD0F-43A2-94E4-433E0B4D0559</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>This workflow allows to efficently (re)start / stop / delete containers, browse dockerhub</string>
@@ -896,9 +1294,9 @@
 			<key>note</key>
 			<string>You sure?</string>
 			<key>xpos</key>
-			<real>1337</real>
+			<real>1772</real>
 			<key>ypos</key>
-			<real>65</real>
+			<real>275</real>
 		</dict>
 		<key>4767A663-1849-48BE-A3D4-39FCB1E585B4</key>
 		<dict>
@@ -916,6 +1314,15 @@
 			<key>ypos</key>
 			<real>435</real>
 		</dict>
+		<key>4EAA36E7-E0AD-4445-A913-4D9F0470A96A</key>
+		<dict>
+			<key>note</key>
+			<string>Deletes a container</string>
+			<key>xpos</key>
+			<real>1955</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
 		<key>52756552-467E-4401-9FC8-50709FDD2B68</key>
 		<dict>
 			<key>colorindex</key>
@@ -923,9 +1330,9 @@
 			<key>note</key>
 			<string>Goes back to Alfred</string>
 			<key>xpos</key>
-			<real>1425</real>
+			<real>1995</real>
 			<key>ypos</key>
-			<real>180</real>
+			<real>345</real>
 		</dict>
 		<key>54C89510-36DA-471E-B9C4-E5534F31D9F5</key>
 		<dict>
@@ -935,6 +1342,31 @@
 			<real>675</real>
 			<key>ypos</key>
 			<real>595</real>
+		</dict>
+		<key>553358E1-798B-4224-88B0-C299200E8D12</key>
+		<dict>
+			<key>note</key>
+			<string>Restarts a container</string>
+			<key>xpos</key>
+			<real>1740</real>
+			<key>ypos</key>
+			<real>365</real>
+		</dict>
+		<key>5C89E338-87A4-45D7-A2C6-D83185BCE258</key>
+		<dict>
+			<key>note</key>
+			<string>Starts a container</string>
+			<key>xpos</key>
+			<real>1740</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>60489975-C242-44EA-9F96-714BA348E7C4</key>
+		<dict>
+			<key>xpos</key>
+			<real>1555</real>
+			<key>ypos</key>
+			<real>660</real>
 		</dict>
 		<key>6400BF8E-8F9D-486B-9055-827C720F5544</key>
 		<dict>
@@ -954,15 +1386,6 @@ E.g.
 			<key>ypos</key>
 			<real>235</real>
 		</dict>
-		<key>6C440EC3-99EF-45C5-ADB7-BC7E5BE8E65F</key>
-		<dict>
-			<key>note</key>
-			<string>Executes selected action</string>
-			<key>xpos</key>
-			<real>1645</real>
-			<key>ypos</key>
-			<real>215</real>
-		</dict>
 		<key>7B36B28E-B337-48A7-B222-4619C5D1CD7E</key>
 		<dict>
 			<key>colorindex</key>
@@ -974,6 +1397,16 @@ E.g.
 			<key>ypos</key>
 			<real>595</real>
 		</dict>
+		<key>884E3A5A-B1DD-45F9-BD31-1A9AA2E723FE</key>
+		<dict>
+			<key>note</key>
+			<string>The input here is 'cli,container_id'.
+This node will cut off 'cli,' chunk, because terminal runner on the right needs only a container id</string>
+			<key>xpos</key>
+			<real>1650</real>
+			<key>ypos</key>
+			<real>495</real>
+		</dict>
 		<key>89B6C709-84BD-456D-BC52-F0005E21E25D</key>
 		<dict>
 			<key>colorindex</key>
@@ -983,6 +1416,13 @@ E.g.
 			<key>ypos</key>
 			<real>390</real>
 		</dict>
+		<key>96724315-CAB1-4136-96DE-523519D6755C</key>
+		<dict>
+			<key>xpos</key>
+			<real>1555</real>
+			<key>ypos</key>
+			<real>495</real>
+		</dict>
 		<key>A33B3B27-81BC-4942-9DF4-4B9259BF1B99</key>
 		<dict>
 			<key>colorindex</key>
@@ -991,6 +1431,16 @@ E.g.
 			<real>810</real>
 			<key>ypos</key>
 			<real>390</real>
+		</dict>
+		<key>B92D4086-FD0F-43A2-94E4-433E0B4D0559</key>
+		<dict>
+			<key>note</key>
+			<string>The input here is 'cli,container_id'.
+This node will cut off 'cli,' chunk, because terminal runner on the right needs only a container id</string>
+			<key>xpos</key>
+			<real>1650</real>
+			<key>ypos</key>
+			<real>660</real>
 		</dict>
 		<key>C2B4CDB0-F398-4A2B-8DBF-FD197E44B61D</key>
 		<dict>
@@ -1003,23 +1453,41 @@ E.g.
 			<key>ypos</key>
 			<real>245</real>
 		</dict>
+		<key>C8079ECA-8032-4129-866A-04E5E24600C2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Pop up terminal and connect to the container</string>
+			<key>xpos</key>
+			<real>1740</real>
+			<key>ypos</key>
+			<real>630</real>
+		</dict>
 		<key>CA183430-8E2F-438A-B576-1588E7222344</key>
 		<dict>
-			<key>note</key>
-			<string>Prompt when deleting</string>
 			<key>xpos</key>
 			<real>1215</real>
 			<key>ypos</key>
 			<real>225</real>
+		</dict>
+		<key>D7604F66-B2FD-4440-8928-AAE96C7B8401</key>
+		<dict>
+			<key>note</key>
+			<string>Stops a container</string>
+			<key>xpos</key>
+			<real>1740</real>
+			<key>ypos</key>
+			<real>145</real>
 		</dict>
 		<key>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>1820</real>
+			<real>2255</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>190</real>
 		</dict>
 		<key>DA8602E3-350C-4D3C-BE7F-2A8C965E82A5</key>
 		<dict>
@@ -1027,6 +1495,15 @@ E.g.
 			<real>190</real>
 			<key>ypos</key>
 			<real>465</real>
+		</dict>
+		<key>DFF69E38-5FB0-438F-89DA-6B87FB954716</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>1740</real>
+			<key>ypos</key>
+			<real>505</real>
 		</dict>
 		<key>F3609714-5CAF-4B83-9093-DCC914DF5396</key>
 		<dict>

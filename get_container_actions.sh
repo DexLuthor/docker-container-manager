@@ -50,6 +50,14 @@ if [[ -n "$container_id" ]]; then
 
         # Adds Delete
         alfred_action_item "🗑Delete '$name'" "" "delete,$id" "delete-$id" "delete"
+        echo ","
+        
+        # Logs tail
+        alfred_action_item "📜Tail logs" "" "logs,$id" "logs-$id" "logs"
+        echo ","
+      
+        # CLI into container
+        alfred_action_item "💻Connect to shell" "" "cli,$id" "cli-$id" "cli"
     fi
 
     echo ']}'
