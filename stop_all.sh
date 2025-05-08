@@ -7,7 +7,8 @@ if [ -z "$running_containers" ]; then
 else
     container_names_before=$(docker ps --filter "id=$running_containers" --format "{{.Names}}")
 
-    docker stop "$running_containers"
+    # shellcheck disable=SC2086
+    docker stop $running_containers > /dev/null
 
     container_names_after=$(docker ps --filter "status=exited" --format "{{.Names}}")
 
