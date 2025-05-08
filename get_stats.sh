@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get docker stats with desired fields
-data=$(docker stats --no-stream --format "{{.Name}}|{{.CPUPerc}}|{{.MemUsage}}|{{.NetIO}}")
+data=$(docker stats --no-stream --format "{{.ID}}|{{.Name}}|{{.CPUPerc}}|{{.MemUsage}}|{{.NetIO}}")
 
 # Start JSON
 echo '{ "rerun": 1, "items": ['
@@ -9,7 +9,7 @@ echo '{ "rerun": 1, "items": ['
 first=true
 
 # Read each line and convert to Alfred JSON format
-while IFS='|' read -r name cpu mem net; do
+while IFS='|' read -r id name cpu mem net; do
     # Skip empty lines
     [ -z "$name" ] && continue
 
@@ -24,7 +24,7 @@ while IFS='|' read -r name cpu mem net; do
     echo '  {'
     echo "    \"title\": \"$name\","
     echo "    \"subtitle\": \"CPU: $cpu | Memory: $mem | Network: $net\","
-    echo "    \"arg\": \"$name\","
+    echo "    \"arg\": \"$id\","
     echo "    \"icon\": { \"path\": \"icon.png\" }"
     echo -n '  }'
 done <<< "$data"

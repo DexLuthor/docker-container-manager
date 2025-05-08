@@ -392,6 +392,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F3609714-5CAF-4B83-9093-DCC914DF5396</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>13630A92-E160-4C35-B928-DE1A871A004C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F44EEEE6-69C5-4C4F-B859-F37FC7AD35EE</key>
 		<array>
 			<dict>
