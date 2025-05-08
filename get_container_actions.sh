@@ -37,13 +37,15 @@ if [[ -n "$container_id" ]]; then
             running=true
         fi
 
-        # Adds start/stop action
+        # Adds stop action
         if $running; then
             alfred_action_item "🛑Stop '$name'" "" "stop,$id" "stop-$id" "stop"
             echo ","
+            # Adds restart action
             alfred_action_item "🔄Restart '$name'" "" "restart,$id" "restart-$id" "restart"
             echo ","
         else
+            # Adds start action
             alfred_action_item "🟢Start '$name'" "" "start,$id" "start-$id" "start"
             echo ","
         fi
@@ -57,7 +59,9 @@ if [[ -n "$container_id" ]]; then
         echo ","
       
         # CLI into container
-        alfred_action_item "💻Connect to shell" "" "cli,$id" "cli-$id" "cli"
+        if $running; then
+          alfred_action_item "💻Connect to shell" "" "cli,$id" "cli-$id" "cli"
+        fi
     fi
 
     echo ']}'
