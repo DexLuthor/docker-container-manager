@@ -1,5 +1,9 @@
 # Alfred Workflow for Managing Docker Containers
 
+## Ideas 
+* image analysis
+* 
+
 ## Features
 
 * (Re)start, stop, or delete containers
@@ -50,3 +54,7 @@
 If you need to reconfigure the workflow,
 you can do so by opening the workflow, clicking `Configure workflow` and modifying available variables:
 ![configuration.png](screenshots/configuration.png)
+
+# Troubleshooting 
+If you encounter any issues, you see debugging logs if follow the instructions below:
+![workflow-debugging.png](screenshots/workflow-debugging.png)
