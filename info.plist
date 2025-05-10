@@ -616,13 +616,13 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>0</integer>
 				<key>script</key>
 				<string></string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>stop_all.sh</string>
+				<string>src/stop_all.sh</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -945,7 +945,7 @@ echo "Deleted '$CONTAINER'"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>get_container_actions.sh</string>
+				<string>src/get_container_actions.sh</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -1053,7 +1053,7 @@ echo "Deleted '$CONTAINER'"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>get_all_containers.sh</string>
+				<string>src/get_all_containers.sh</string>
 				<key>subtext</key>
 				<string>Manage docker containers</string>
 				<key>title</key>
@@ -1289,7 +1289,7 @@ echo "Restarted '$CONTAINER'"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>get_stats.sh</string>
+				<string>src/get_stats.sh</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -1405,7 +1405,7 @@ echo "Restarted '$CONTAINER'"</string>
 				<key>footertext</key>
 				<string></string>
 				<key>inputfile</key>
-				<string>get_container_logs.sh</string>
+				<string>src/get_container_logs.sh</string>
 				<key>inputtype</key>
 				<integer>1</integer>
 				<key>loadingtext</key>
@@ -1545,7 +1545,7 @@ echo "Restarted '$CONTAINER'"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>query_dockerhub.sh</string>
+				<string>src/query_dockerhub.sh</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -1679,7 +1679,7 @@ echo "Restarted '$CONTAINER'"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>get_images.sh</string>
+				<string>src/get_images.sh</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -1804,6 +1804,8 @@ echo "Restarted '$CONTAINER'"</string>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
+			<key>note</key>
+			<string>Lists all local images, number of instantiated containers and number of available tags, and overall size</string>
 			<key>xpos</key>
 			<real>495</real>
 			<key>ypos</key>

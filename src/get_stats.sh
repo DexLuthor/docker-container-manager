@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./check_dependencies.sh
+./src/check_dependencies.sh
 
 # Get docker stats with desired fields
 data=$(docker stats --no-stream --format "{{.ID}}|{{.Name}}|{{.CPUPerc}}|{{.MemUsage}}|{{.NetIO}}")
