@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./check_dependencies.sh
+
 alfred_action_item() {
     local title="$1"
     local subtitle="$2"

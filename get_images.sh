@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./check_dependencies.sh
+
 # Optional filter passed from Alfred ({query})
 FILTER="$1"
 
