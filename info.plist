@@ -266,7 +266,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4DCA7FE6-4A07-437C-8829-AF127F0121CF</string>
+				<string>A7E5D56E-E00B-4553-80AF-C61319B614A8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -276,7 +276,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>DA56A795-9C5D-43BF-9BCA-2594C5366EFA</string>
+				<string>4DCA7FE6-4A07-437C-8829-AF127F0121CF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -632,6 +632,27 @@
 			<string>6400BF8E-8F9D-486B-9055-827C720F5544</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Stopped all running containers</string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>A7E5D56E-E00B-4553-80AF-C61319B614A8</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1991,6 +2012,15 @@ This node will cut off 'cli,' chunk, because terminal runner on the right needs 
 			<real>955</real>
 			<key>ypos</key>
 			<real>590</real>
+		</dict>
+		<key>A7E5D56E-E00B-4553-80AF-C61319B614A8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>2350</real>
+			<key>ypos</key>
+			<real>30</real>
 		</dict>
 		<key>B79E1334-CF88-4CFE-A492-AA26189C6AAC</key>
 		<dict>
