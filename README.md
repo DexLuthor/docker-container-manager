@@ -1,9 +1,5 @@
 # Alfred Workflow for Managing Docker Containers
 
-## Ideas 
-* image analysis
-* 
-
 ## Features
 
 * (Re)start, stop, or delete containers
