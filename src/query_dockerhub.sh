@@ -38,7 +38,7 @@ search_docker() {
           url: "\($url)/\((.is_official | if . then "_" else "r" end))/\(.name)",
           subtitle: "\(.description) ~ \(.star_count)★",
           arg: "\($url)/\((.is_official | if . then "_" else "r" end))/\(.name)",
-          icon: { path: "icon-cache/\($id).png" }
+          icon: { path: "icon.png" }
         })
       )
     }

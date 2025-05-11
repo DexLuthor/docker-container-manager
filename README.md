@@ -55,6 +55,6 @@ If you need to reconfigure the workflow,
 you can do so by opening the workflow, clicking `Configure workflow` and modifying available variables:
 ![configuration.png](screenshots/configuration.png)
 
-# Troubleshooting 
+## Troubleshooting 
 If you encounter any issues, you see debugging logs if follow the instructions below:
 ![workflow-debugging.png](screenshots/workflow-debugging.png)

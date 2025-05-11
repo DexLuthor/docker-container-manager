@@ -48,7 +48,7 @@ for repo in $repos; do
     echo '    "title": "'"$repo"'",'
     echo '    "subtitle": "Tags: '"$tag_count"', Containers: '"$total_containers"', Size: '"$size"'",'
     echo '    "arg": "'"$repo"'",'
-    echo '    "icon": { "path": "/Applications/Docker.app/Contents/Resources/Docker.icns" }'
+    echo '    "icon": { "path": "icon.png" }'
     echo '  }'
 done
 
