@@ -2288,7 +2288,7 @@ This node will cut off 'cli,' chunk, because terminal runner on the right needs 
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/DexLuthor/docker-container-manager</string>
 </dict>
